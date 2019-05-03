@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view"
+    tools:context=".Activities.ViewActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalam_bold_"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182">
+
+        <EditText
+            android:id="@+id/view_Clientname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/clientname"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:fontFamily="@font/kalam_bold_"
+            android:hint="@string/ClientName"
+            android:enabled="false"
+            android:textColor="#244357"
+            android:importantForAutofill="noExcludeDescendants"
+            android:inputType="textPersonName"
+            tools:ignore="RtlCompat" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        android:fontFamily="@font/kalam_bold_"
+        app:layout_constraintVertical_bias="0.042">
+
+        <EditText
+            android:id="@+id/view_ClientPhone"
+            android:fontFamily="@font/kalam_bold_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/phonenumber"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:enabled="false"
+            android:textColor="#244357"
+            android:hint="@string/Clientsphonenumber"
+            android:importantForAutofill="noExcludeDescendants"
+            android:inputType="phone"
+            tools:ignore="RtlCompat" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        android:fontFamily="@font/kalam_bold_"
+        app:layout_constraintVertical_bias="0.013">
+
+        <EditText
+            android:id="@+id/view_Date"
+            android:fontFamily="@font/kalam_bold_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/date"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:hint="@string/Date"
+            android:enabled="false"
+            android:textColor="#244357"
+            android:importantForAutofill="noExcludeDescendants"
+            android:inputType="text"
+            tools:ignore="RtlCompat" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        android:fontFamily="@font/kalam_bold_"
+        app:layout_constraintVertical_bias="0.013">
+
+        <EditText
+            android:id="@+id/view_Placeofwork"
+            android:fontFamily="@font/kalam_bold_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/place"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:hint="@string/Placeofwork"
+            android:enabled="false"
+            android:textColor="#244357"
+            android:importantForAutofill="noExcludeDescendants"
+            android:inputType="phone"
+            tools:ignore="RtlCompat" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        android:fontFamily="@font/kalam_bold_"
+        app:layout_constraintVertical_bias="0.013">
+
+        <EditText
+            android:id="@+id/view_Typeofwork"
+            android:fontFamily="@font/kalam_bold_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/typeofwork"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:hint="@string/Typeofwork"
+            android:enabled="false"
+            android:textColor="#244357"
+            android:importantForAutofill="noExcludeDescendants"
+            android:inputType="textPersonName"
+            tools:ignore="RtlCompat" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalam_bold_"
+        tools:layout_editor_absoluteY="508dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/view_Total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/money"
+            android:drawablePadding="4dp"
+            android:ems="10"
+            android:enabled="false"
+            android:fontFamily="@font/kalam_bold_"
+            android:hint="@string/Total_price"
+            android:importantForAutofill="noExcludeDescendants"
+            android:inputType="textPersonName"
+            android:textColor="#244357"
+            tools:ignore="RtlCompat" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        tools:ignore="MissingConstraints">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/kalam_bold_"
+            >
+
+            <EditText
+                android:id="@+id/view_Paidup"
+                android:fontFamily="@font/kalam_bold_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/paid"
+                android:drawablePadding="4dp"
+                android:ems="10"
+                android:hint="@string/Paidup"
+                android:enabled="false"
+                android:textColor="#244357"
+                android:importantForAutofill="noExcludeDescendants"
+                android:inputType="textPersonName"
+                tools:ignore="RtlCompat" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/kalam_bold_"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/view_Residual"
+                android:fontFamily="@font/kalam_bold_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/coins"
+                android:drawablePadding="4dp"
+                android:ems="10"
+                android:hint="@string/Residual"
+                android:enabled="false"
+                android:textColor="#244357"
+                android:importantForAutofill="noExcludeDescendants"
+                android:inputType="textPersonName"
+                tools:ignore="RtlCompat" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

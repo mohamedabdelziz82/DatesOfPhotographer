@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".Activities.MainActivity">
+
+    <include
+        android:id="@+id/App_toolbar"
+        layout="@layout/app_bar_layout"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/datesRecyclerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/App_toolbar"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/noDates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/ic_date_range"
+        android:padding="16dp"
+        android:text="@string/NoDates"
+        android:textAlignment="center"
+        android:fontFamily="@font/kalam_bold_"
+        android:textColor="#6C6C6C"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CardView"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:padding="2dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#fff"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/NewDatebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:drawableTop="@drawable/ic_add"
+                android:fontFamily="@font/kalam_bold_"
+                android:text="@string/NewDate"
+                app:fontFamily="@font/kalam_bold_"
+                android:textAllCaps="false"
+                android:textColor="@color/colorNameApp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/settingbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:fontFamily="@font/kalam_bold_"
+                app:fontFamily="@font/kalam_bold_"
+
+                android:drawableTop="@drawable/ic_settings"
+                android:gravity="center_horizontal"
+                android:text="@string/Settings"
+                android:textAllCaps="false"
+                android:textColor="@color/colorNameApp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

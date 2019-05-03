@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/NewDateActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context=".Activities.NewClientActivity">
+
+    <include
+        android:id="@+id/toolbarNewDate"
+        layout="@layout/new_client_bar_layout"></include>
+
+    <TextView
+        android:id="@+id/newDate_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarNewDate"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/kalam_bold_"
+        android:layout_marginTop="100dp"
+        android:filterTouchesWhenObscured="false"
+        android:text="@string/LetstartbycreatingyourDate"
+        android:textColor="#244357"
+        android:textFontWeight="@font/kalam_bold_"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/newDate_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newDate_text"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/inputs"
+        android:fontFamily="@font/kalam_bold_"
+        android:drawableStart="@drawable/clientname"
+        android:drawablePadding="10dp"
+        android:hint="@string/ClientName"
+        android:inputType="textPersonName"
+        android:padding="4dp"
+        android:textColor="#244357"
+        android:textSize="18dp"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/newDate_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalam_bold_"
+        android:layout_below="@+id/newDate_name"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/inputs"
+        app:fontFamily="@font/kalam_bold_"
+        android:drawableStart="@drawable/phonenumber"
+        android:drawablePadding="10dp"
+        android:hint="@string/Clientsphonenumber"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="phone"
+        android:padding="4dp"
+        android:textColor="#244357"
+        android:textSize="18dp"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/newDate_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalam_bold_"
+        android:layout_below="@+id/newDate_phone"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/inputs"
+        app:fontFamily="@font/kalam_bold_"
+        android:drawableStart="@drawable/date"
+        android:drawablePadding="10dp"
+        android:hint="@string/selectDate"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="date"
+        android:padding="4dp"
+        android:textColor="#244357"
+        android:textSize="18dp"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/newDate_Placeofwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalam_bold_"
+        android:layout_below="@id/newDate_date"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/inputs"
+        app:fontFamily="@font/kalam_bold_"
+        android:drawableStart="@drawable/place"
+        android:drawablePadding="10dp"
+        android:hint="@string/Placeofwork"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="text"
+        android:padding="4dp"
+        android:textColor="#244357"
+        android:textSize="18dp"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/newDate_type_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalam_bold_"
+        android:layout_below="@id/newDate_Placeofwork"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        app:fontFamily="@font/kalam_bold_"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/type"
+        android:drawablePadding="10dp"
+        android:hint="@string/Typeofwork"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="text"
+        android:padding="4dp"
+        android:textColor="#244357"
+        android:textSize="18dp"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/newDate_total_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalam_bold_"
+        android:layout_below="@id/newDate_type_work"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/money"
+        android:drawablePadding="4dp"
+        app:fontFamily="@font/kalam_bold_"
+        android:enabled="false"
+        android:hint="@string/Total_price"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="number"
+        android:padding="4dp"
+        android:textColor="#244357"
+        android:textSize="18dp"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newDate_total_price"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/newDate_Paid_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/kalam_bold_"
+            android:background="@drawable/inputs"
+            android:hint="@string/Paidup"
+            app:fontFamily="@font/kalam_bold_"
+            android:inputType="number"
+            android:drawableStart="@drawable/paid"
+            android:padding="4dp"
+            android:drawablePadding="4dp"
+            android:textColor="#244357"
+            android:textSize="18dp"
+            tools:ignore="RtlCompat" />
+
+        <EditText
+            android:id="@+id/newDate_Residual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:hint="@string/Residual"
+            android:inputType="number"
+            android:fontFamily="@font/kalam_bold_"
+            app:fontFamily="@font/kalam_bold_"
+            android:padding="4dp"
+            android:drawablePadding="4dp"
+            android:background="@drawable/inputs"
+            android:textColor="#244357"
+            android:textSize="18dp"
+            android:drawableStart="@drawable/coins"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/newDate_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="10dp"
+        android:hint="@string/selectTime"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="datetime"
+        android:padding="4dp"
+        android:textColor="#244357"
+        android:textSize="18dp"
+        android:visibility="invisible"
+        tools:ignore="RtlCompat" />
+
+
+
+</RelativeLayout>

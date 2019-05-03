@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سامبو</string>
+    <string name="AddDate">إضافة عميل</string>
+    <string name="NewDate">عميل جديد</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="LetstartbycreatingyourDate">لنقم بإنشاء عميل جديد</string>
+    <string name="ClientName">اسم العميل</string>
+    <string name="Clientsphonenumber">رقم هاتف العميل</string>
+    <string name="selectDate">حدد التاريخ</string>
+    <string name="Typeofwork">نوع العمل</string>
+    <string name="Total_price">السعر الكلى</string>
+    <string name="Paidup">المدفوع</string>
+    <string name="Residual">المتبقي</string>
+    <string name="Placeofwork">مكان العمل</string>
+    <string name="Reminder">منبه</string>
+    <string name="selectTime">حدد الوقت</string>
+    <string name="NoDates">لا يوجد عملاء</string>
+    <string name="reminder_title">عمل</string>
+    <string name="enterClientName">أدخل اسم العميل</string>
+    <string name="enterPhoneNumber">أدخل رقم هاتف العميل</string>
+    <string name="enterPlaceofwork">أدخل مكان العمل</string>
+    <string name="selectTypeOfwork">حدد نوع العمل</string>
+    <string name="enterPaidmoney">أدخل المال المدفوع</string>
+    <string name="newdatesavedsuccessfully">تم حفظ عمل جديد بنجاح</string>
+    <string name="Failedtosave">فشل في الحفظ</string>
+    <string name="CreatingNewDate">يتم إنشاء عميل جديد</string>
+    <string name="View">فتح</string>
+    <string name="Delete">حذف</string>
+    <string name="Update">تحديث</string>
+    <string name="Edit">تعديل</string>
+    <string name="Areyousuretodelete">هل أنت متأكد من حذف</string>
+    <string name="Attention">انتباه</string>
+    <string name="Ok">موافق</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="hasbeendeleted">تم الحذف</string>
+    <string name="somethingisworng">هناك شئ غير صحيح</string>
+    <string name="Date">تاريخ</string>
+    <string name="ThereisnoInternetConnection">لا يوجد اتصال بالإنترنت</string>
+    <string name="UpdateClient">تحديث العميل</string>
+    <string name="clientupdatedsuccessfully">تم تحديث العميل بنجاح</string>
+    <string name="NoTypes">لا يوجد أي نوع من الأعمال</string>
+    <string name="NewWork">إضافة عمل</string>
+    <string name="WorkName">اسم العمل</string>
+    <string name="EnterWorkName">أدخل اسم العمل</string>
+    <string name="EnterTotalPrice">أدخل السعر الإجمالي</string>
+    <string name="search_hint">ابحث...</string>
+    <string name="Theamountpaidishigherthanthetotalprice">المبلغ المدفوع أعلى من السعر الإجمالي</string>
+    <string name="InvalidClientName">اسم عميل غير صحيح</string>
+    <string name="s">؟</string>
+    <string name="WorkSaved">تم حفظ العمل</string>
+    <string name="WorkUpdated">تم تحديث العمل</string>
+    <string name="TheTypes">الأنواع</string>
+    <string name="InvalidClientPhoneNumber">رقم هاتف العميل غير صحيح</string>
+
+
+</resources>
